@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AC9226AA-2F71-A276-646B-52142DE95229" name="imc">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-04-28 23:45:52 UTC</createdTime>
+<generatorID>B9EB86F6-0653-3DAB-2773-DAD754A09E7B</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="data" id="86F7656F-387E-6811-801B-53324A41E6B9">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-04-28 23:45:52 UTC</createdTime>
+<generatorID>FC2E92A2-3D29-91AB-43BF-F2840F3D316B</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="peso" id="6232A8B3-20B6-56BA-AC1C-BC6B8C13DFC6">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-04-28 23:45:52 UTC</createdTime>
+<generatorID>82BE7A8D-23FA-4829-2B8E-06C6C6207F2C</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="altura" id="6408CA87-49CA-3817-C93E-C32C39DCC0ED">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-04-28 23:45:52 UTC</createdTime>
+<generatorID>82BFD6F3-A4D5-123A-A775-714FF7031B47</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="analiseImcPessoa" id="8BDC111C-DCCE-35EE-82BB-A7822C86F7CF">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-04-28 23:45:52 UTC</createdTime>
+<generatorID>9067B95E-E9AB-3B92-76D1-183E15B966D2</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valorImcPessoa" id="BBAD11FE-A02F-5CFD-F525-B60C79321ABD">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-04-28 23:45:52 UTC</createdTime>
+<generatorID>DBA7D1CA-8158-F397-6932-0DF639FDCB39</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USUARIO_cpf" id="38EBEBD3-0337-322F-B86D-06062240C999">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-04-28 23:45:52 UTC</createdTime>
+<generatorID>EE96238A-C505-C3C8-21A6-22BF6F5B986A</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="16600893-FFFF-3B22-1871-F641F7E3B14A" referredColumn="86B9136A-C486-7477-9E8D-41980DD0D231"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F96A6808-128C-E4AD-96BE-215AEE8CF999" name="imc_PK">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-04-28 23:45:52 UTC</createdTime>
+<generatorID>1400FD60-E385-B883-266B-91104A180009</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86F7656F-387E-6811-801B-53324A41E6B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A52EAD0C-DDF5-B14E-5DE6-2EBE1E24BD6A" name="imc_USUARIO_FK">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-04-28 23:45:52 UTC</createdTime>
+<generatorID>378FEF04-3313-1E46-6904-62EC058695B7</generatorID>
+<ownerDesignName>ProjDB-IMC</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38EBEBD3-0337-322F-B86D-06062240C999"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
