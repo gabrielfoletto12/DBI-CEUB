@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DF932935-9C44-75FF-0507-AFC2851C74C4" name="Status">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-05 23:33:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5749FFB5-E63C-73B7-6EED-B1DDC5374092" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Status</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="idStatus" id="CD2C485E-39D3-8766-38A7-6410EAA1C01A">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-05 23:56:11 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5749FFB5-E63C-73B7-6EED-B1DDC5374092" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descStatus" id="9C97C69E-437D-5CB5-5F48-FF810BDCF585">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-06 00:03:13 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5749FFB5-E63C-73B7-6EED-B1DDC5374092" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>13</dataTypeSize>
+<ownDataTypeParameters>13,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="E91A59D2-622D-CAB5-4026-C6A34A7D7F4A" name="Status PK">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-05 23:56:26 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="5749FFB5-E63C-73B7-6EED-B1DDC5374092" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CD2C485E-39D3-8766-38A7-6410EAA1C01A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E4DEFA1E-9600-771A-BAB9-3B1CB61203D1" name="Cliente">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-06 00:41:37 UTC</createdTime>
+<generatorID>7F0AD8D7-3330-F8CD-699E-3BE6CAE06FDE</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<abbreviation>Cliente</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpfCliente" id="38A89942-E3C4-AC1B-C94C-C92E5B8E1D50">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-06 00:41:37 UTC</createdTime>
+<generatorID>C05015B4-B4B4-9C79-2454-B2AFA7D46AF5</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nomeCompleto" id="340A069C-B504-F449-BB54-B8442E16CF03">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-06 00:41:37 UTC</createdTime>
+<generatorID>5C8DAB0E-3A11-EF43-5BA1-522E2B6DE764</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>32</dataTypeSize>
+<ownDataTypeParameters>32,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefone" id="953DAE7A-3D04-BAE2-F152-D637288ED0C4">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-06 00:41:37 UTC</createdTime>
+<generatorID>E0CDEBAD-861C-BA8F-593F-3B511D9ED8E9</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cep" id="4156F365-F7E9-2E63-622D-76D26875D0F8">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-06 00:41:37 UTC</createdTime>
+<generatorID>C8D646BC-8CB8-DF5B-DB47-12DBF0BD473F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C2957C22-6B52-8480-FCF9-BE63EDDFCBC1" referredColumn="FBE13E27-F916-9D7F-EAC5-FE697BA73EB2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DD5AEDB8-9EA8-D723-9C75-8EF0F43FA1E8" name="vendendor_PK">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-06 00:41:37 UTC</createdTime>
+<generatorID>02A0D713-760D-0A78-4D9E-9C57B988254C</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="38A89942-E3C4-AC1B-C94C-C92E5B8E1D50"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4DD6B990-6549-DF9E-DB5A-00A92A3A23D1" name="enderecoClientes">
+<createdBy>gabrielfoletto</createdBy>
+<createdTime>2025-05-06 00:41:37 UTC</createdTime>
+<generatorID>138FE732-F79F-8965-3B57-2BC3D0C2A589</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4156F365-F7E9-2E63-622D-76D26875D0F8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
